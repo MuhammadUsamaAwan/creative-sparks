@@ -7,6 +7,7 @@ import { ExhibitionSchedule } from './components/ExhibitionSchedule';
 import { Hero } from './components/Hero';
 import { Hire } from './components/Hire';
 import { HomeDecor } from './components/HomeDecor';
+import { JoinExhibition } from './components/JoinExhibition';
 import { Paintings } from './components/Paintings';
 import { Prints } from './components/Prints';
 import { Shop } from './components/Shop';
@@ -26,6 +27,7 @@ export function App() {
         <Route path='exhibition-schedule' element={<ExhibitionSchedule />} />
         <Route path='buy' element={<Buy />} />
         <Route path='hire' element={<Hire />} />
+        <Route path='join-exhibition' element={<JoinExhibition />} />
       </Route>
     </Routes>
   );

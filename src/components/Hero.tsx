@@ -5,7 +5,7 @@ import heroImage from '~/assets/svgs/hero.svg';
 
 export function Hero() {
   return (
-    <SimpleGrid cols={2}>
+    <SimpleGrid cols={2} px='lg'>
       <Stack mt={160}>
         <Title>Buy Art!</Title>
         <Title order={2}>A Haven for Art Enthusiasts</Title>

@@ -1,11 +1,11 @@
 import { Button, Checkbox, SimpleGrid, Stack, TextInput, Title } from '@mantine/core';
 import { IconCurrencyDollar } from '@tabler/icons-react';
 
-export function Buy() {
+export function JoinExhibition() {
   return (
     <form>
       <Stack>
-        <Title>Checkout</Title>
+        <Title>Buy Exhibition Ticket</Title>
         <Title order={2}>Contact Information</Title>
         <TextInput label='Full Name' placeholder='Enter Full Name' required />
         <TextInput label='Email' placeholder='Enter Email' type='email' required />
@@ -27,7 +27,7 @@ export function Buy() {
         </SimpleGrid>
 
         <Checkbox label='I have read the terms and conditions' />
-        <Button leftSection={<IconCurrencyDollar size={14} />}>Pay</Button>
+        <Button leftSection={<IconCurrencyDollar size={14} />}>Buy Ticket</Button>
       </Stack>
     </form>
   );
