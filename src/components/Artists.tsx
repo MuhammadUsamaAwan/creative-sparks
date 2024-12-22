@@ -1,4 +1,4 @@
-import { Button, Card, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
+import { Button, Card, Group, Image, SimpleGrid, Space, Stack, Text, Title } from '@mantine/core';
 import { IconBriefcase } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
@@ -45,10 +45,11 @@ export function Artists() {
               250,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'
@@ -89,10 +90,11 @@ export function Artists() {
               180,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'
@@ -133,10 +135,11 @@ export function Artists() {
               200,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'
@@ -177,10 +180,11 @@ export function Artists() {
               300,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'
@@ -221,10 +225,11 @@ export function Artists() {
               220,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'
@@ -265,10 +270,11 @@ export function Artists() {
               220,000
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/hire'

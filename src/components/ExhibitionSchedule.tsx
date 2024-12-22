@@ -1,4 +1,4 @@
-import { Button, Card, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
+import { Button, Card, Group, Image, SimpleGrid, Space, Stack, Text, Title } from '@mantine/core';
 import { IconUsersPlus } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
@@ -45,10 +45,11 @@ export function ExhibitionSchedule() {
               The Abassi Art Gallery, Rawalpindi
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
@@ -89,10 +90,11 @@ export function ExhibitionSchedule() {
               Canvas Gallery, Lahore
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
@@ -133,10 +135,11 @@ export function ExhibitionSchedule() {
               ArtChowk Gallery, Karachi
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
@@ -177,10 +180,11 @@ export function ExhibitionSchedule() {
               Alhamra Art Gallery, Lahore
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
@@ -221,10 +225,11 @@ export function ExhibitionSchedule() {
               National Art Gallery, Islamabad
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
@@ -265,10 +270,11 @@ export function ExhibitionSchedule() {
               Echoes of Infinite, Lahore
             </Text>
           </Group>
+          <Space mt='md' />
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/join-exhibition'
