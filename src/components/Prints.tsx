@@ -23,17 +23,17 @@ export function Prints() {
             <Image src={print1} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Castle on the Hill</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 1</Text>
+            <Text fw={500}>1,250 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            A medieval-style castle perched atop a hill Stone walls and towers standing tall against the landscape Warm
-            colors and intricate details evoke a sense of grandeur and history
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -48,17 +48,17 @@ export function Prints() {
             <Image src={print2} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 2</Text>
+            <Text fw={500}>3,500 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -73,17 +73,17 @@ export function Prints() {
             <Image src={print3} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 3</Text>
+            <Text fw={500}>7,800 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -98,17 +98,17 @@ export function Prints() {
             <Image src={print4} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 4</Text>
+            <Text fw={500}>15,000 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -123,17 +123,17 @@ export function Prints() {
             <Image src={print5} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 5</Text>
+            <Text fw={500}>6,750 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -148,17 +148,17 @@ export function Prints() {
             <Image src={print6} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 6</Text>
+            <Text fw={500}>4,200 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -173,17 +173,17 @@ export function Prints() {
             <Image src={print7} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 7</Text>
+            <Text fw={500}>800 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -198,17 +198,17 @@ export function Prints() {
             <Image src={print8} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 8</Text>
+            <Text fw={500}>10,400 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -223,17 +223,17 @@ export function Prints() {
             <Image src={print9} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 9</Text>
+            <Text fw={500}>5,999 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -248,17 +248,17 @@ export function Prints() {
             <Image src={print10} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Print 10</Text>
+            <Text fw={500}>2,650 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
+            character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'

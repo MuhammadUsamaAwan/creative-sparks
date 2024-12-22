@@ -20,14 +20,14 @@ export function Shop() {
             <Text fw={500}>Paintings</Text>
             <Badge color='pink'>On Sale</Badge>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Discover one-of-a-kind paintings that bring emotion and creativity to your walls. Find the perfect piece to
             inspire your space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/paintings'
@@ -45,14 +45,14 @@ export function Shop() {
             <Text fw={500}>Prints</Text>
             <Badge color='pink'>On Sale</Badge>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Explore stunning art prints that blend affordability with beauty. Choose from a variety of styles to add
             character and charm to any room.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/prints'
@@ -70,14 +70,14 @@ export function Shop() {
             <Text fw={500}>Home Decor</Text>
             <Badge color='pink'>On Sale</Badge>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
             house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/home-decor'
@@ -95,14 +95,14 @@ export function Shop() {
             <Text fw={500}>Art Supplies</Text>
             <Badge color='pink'>On Sale</Badge>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/art-supplies'

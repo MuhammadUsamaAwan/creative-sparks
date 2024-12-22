@@ -23,17 +23,17 @@ export function ArtSupplies() {
             <Image src={artSupplies1} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Castle on the Hill</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 1</Text>
+            <Text fw={500}>1,200 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            A medieval-style castle perched atop a hill Stone walls and towers standing tall against the landscape Warm
-            colors and intricate details evoke a sense of grandeur and history
+          <Text size='sm' c='dimmed' mb='md'>
+            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
+            create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -48,17 +48,17 @@ export function ArtSupplies() {
             <Image src={artSupplies2} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 2</Text>
+            <Text fw={500}>2,800 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -73,17 +73,17 @@ export function ArtSupplies() {
             <Image src={artSupplies3} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 3</Text>
+            <Text fw={500}>450 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -98,17 +98,17 @@ export function ArtSupplies() {
             <Image src={artSupplies4} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 4</Text>
+            <Text fw={500}>3,600 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -123,17 +123,17 @@ export function ArtSupplies() {
             <Image src={artSupplies5} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 5</Text>
+            <Text fw={500}>1,750 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -148,17 +148,17 @@ export function ArtSupplies() {
             <Image src={artSupplies6} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 6</Text>
+            <Text fw={500}>5,200 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -173,17 +173,17 @@ export function ArtSupplies() {
             <Image src={artSupplies7} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 7</Text>
+            <Text fw={500}>3,100 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -198,17 +198,17 @@ export function ArtSupplies() {
             <Image src={artSupplies8} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 8</Text>
+            <Text fw={500}>850 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -223,17 +223,17 @@ export function ArtSupplies() {
             <Image src={artSupplies9} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 9</Text>
+            <Text fw={500}>4,400 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -248,17 +248,17 @@ export function ArtSupplies() {
             <Image src={artSupplies10} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Art Supplies 10</Text>
+            <Text fw={500}>6,700 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
+          <Text size='sm' c='dimmed' mb='md'>
             Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
             create your next masterpiece.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'

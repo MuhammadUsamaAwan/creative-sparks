@@ -23,17 +23,17 @@ export function HomeDecor() {
             <Image src={homeDecor1} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Castle on the Hill</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 1</Text>
+            <Text fw={500}>1,950 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            A medieval-style castle perched atop a hill Stone walls and towers standing tall against the landscape Warm
-            colors and intricate details evoke a sense of grandeur and history
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -48,17 +48,17 @@ export function HomeDecor() {
             <Image src={homeDecor2} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 2</Text>
+            <Text fw={500}>8,500 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -73,17 +73,17 @@ export function HomeDecor() {
             <Image src={homeDecor3} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 3</Text>
+            <Text fw={500}>3,200 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -98,17 +98,17 @@ export function HomeDecor() {
             <Image src={homeDecor4} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 4</Text>
+            <Text fw={500}>12,750 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -123,17 +123,17 @@ export function HomeDecor() {
             <Image src={homeDecor5} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 5</Text>
+            <Text fw={500}>6,450 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -148,17 +148,17 @@ export function HomeDecor() {
             <Image src={homeDecor6} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 6</Text>
+            <Text fw={500}>5,100 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -173,17 +173,17 @@ export function HomeDecor() {
             <Image src={homeDecor7} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 7</Text>
+            <Text fw={500}>2,300 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -198,17 +198,17 @@ export function HomeDecor() {
             <Image src={homeDecor8} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 8</Text>
+            <Text fw={500}>9,800 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -223,17 +223,17 @@ export function HomeDecor() {
             <Image src={homeDecor9} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 9</Text>
+            <Text fw={500}>4,600 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
@@ -248,17 +248,17 @@ export function HomeDecor() {
             <Image src={homeDecor10} height={160} alt='' />
           </Card.Section>
           <Group justify='space-between' mt='md' mb='xs'>
-            <Text fw={500}>Art Supplies</Text>
-            <Text fw={500}>46.99$</Text>
+            <Text fw={500}>Home Decor 10</Text>
+            <Text fw={500}>14,200 PKR</Text>
           </Group>
-          <Text size='sm' c='dimmed'>
-            Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to
-            create your next masterpiece.
+          <Text size='sm' c='dimmed' mb='md'>
+            Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your
+            house into a gallery-worthy space.
           </Text>
           <Button
             color='blue'
             fullWidth
-            mt='md'
+            mt='auto'
             radius='md'
             component={Link}
             to='/buy'
