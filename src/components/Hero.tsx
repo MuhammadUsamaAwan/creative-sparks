@@ -1,5 +1,6 @@
 import { Box, Button, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
 import { IconArrowRight } from '@tabler/icons-react';
+import { Link } from 'react-router-dom';
 
 import heroImage from '~/assets/svgs/hero.svg';
 
@@ -17,7 +18,9 @@ export function Hero() {
           for self-expression. Let your imagination soar and make this your haven for artistic exploration!
         </Text>
         <div>
-          <Button leftSection={<IconArrowRight size={14} />}>Shop Now</Button>
+          <Button leftSection={<IconArrowRight size={14} />} component={Link} to='/shop'>
+            Shop Now
+          </Button>
         </div>
       </Stack>
       <Box mt={100}>
