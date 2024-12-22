@@ -5,6 +5,7 @@ import { ArtSupplies } from './components/ArtSupplies';
 import { Buy } from './components/Buy';
 import { ExhibitionSchedule } from './components/ExhibitionSchedule';
 import { Hero } from './components/Hero';
+import { Hire } from './components/Hire';
 import { HomeDecor } from './components/HomeDecor';
 import { Paintings } from './components/Paintings';
 import { Prints } from './components/Prints';
@@ -24,6 +25,7 @@ export function App() {
         <Route path='artists' element={<Artists />} />
         <Route path='exhibition-schedule' element={<ExhibitionSchedule />} />
         <Route path='buy' element={<Buy />} />
+        <Route path='hire' element={<Hire />} />
       </Route>
     </Routes>
   );
