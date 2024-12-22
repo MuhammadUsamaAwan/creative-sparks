@@ -20,6 +20,7 @@ const config = {
     '^~/components/ui/(.*)$',
     '^~/components/(.*)$',
     '^~/features/(.*)$',
+    '^~/assets/(.*)$',
     '',
     '^[./]',
   ],

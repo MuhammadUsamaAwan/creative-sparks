@@ -1,12 +1,12 @@
 import { Box, Button, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
 import { IconArrowRight } from '@tabler/icons-react';
 
-import heroImage from '../assets/svgs/hero.svg';
+import heroImage from '~/assets/svgs/hero.svg';
 
 export function Hero() {
   return (
     <SimpleGrid cols={2}>
-      <Stack mt={200}>
+      <Stack mt={160}>
         <Title>Buy Art!</Title>
         <Title order={2}>A Haven for Art Enthusiasts</Title>
         <Text>

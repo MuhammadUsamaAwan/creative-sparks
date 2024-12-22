@@ -25,13 +25,14 @@ import {
   IconUsers,
   IconWallpaper,
 } from '@tabler/icons-react';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 
 export function Layout() {
   const [opened, { toggle }] = useDisclosure();
   const { colorScheme } = useMantineColorScheme({});
   const theme = useMantineTheme();
   const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   return (
     <AppShell
@@ -88,6 +89,8 @@ export function Layout() {
             active={'/shop' === pathname}
             leftSection={<IconShoppingBag size={16} />}
             component={Link}
+            opened
+            onClick={() => navigate('/shop')}
           >
             <NavLink
               to='/paintings'
