@@ -100,7 +100,7 @@ export function Dashboard() {
       </Flex>
       <Table
         data={{
-          head: ['Customer', 'Items Sold', 'Artists Hired'],
+          head: ['Customer', 'Items Bought', 'Artists Hired'],
           body: [
             ['Alice', 12, 3],
             ['Bob', 14, 1],
