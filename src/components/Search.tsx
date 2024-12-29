@@ -41,7 +41,7 @@ export function Search() {
         }
         const homeDecor = data.homeDecors.find(homeDecor => homeDecor.name === val);
         if (homeDecor) {
-          navigate(`/home-decors/${homeDecor.id}`);
+          navigate(`/home-decor/${homeDecor.id}`);
           return;
         }
         const print = data.prints.find(print => print.name === val);
