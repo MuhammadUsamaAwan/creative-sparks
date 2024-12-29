@@ -2,10 +2,10 @@ import { Badge, Button, Card, Group, Image, SimpleGrid, Stack, Text, Title } fro
 import { IconEye } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
-import artSuppliesImg from '~/assets/images/art-supplies.jpg';
-import homeDecorImg from '~/assets/images/home-decor.jpg';
-import paintingsImg from '~/assets/images/paintings.jpg';
-import printsImg from '~/assets/images/prints.jpg';
+import artSuppliesImg from '/images/art-supplies.jpg';
+import homeDecorImg from '/images/home-decor.jpg';
+import paintingsImg from '/images/paintings.jpg';
+import printsImg from '/images/prints.jpg';
 
 export function Shop() {
   return (

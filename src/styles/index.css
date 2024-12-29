@@ -11,3 +11,11 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.03);
+}
