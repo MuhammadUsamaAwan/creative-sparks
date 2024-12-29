@@ -3,7 +3,6 @@ import {
   AppShell,
   Burger,
   Group,
-  Input,
   NavLink,
   ScrollArea,
   Title,
@@ -20,7 +19,6 @@ import {
   IconHome,
   IconLibraryPhoto,
   IconPaint,
-  IconSearch,
   IconShoppingBag,
   IconShoppingCart,
   IconUser,
@@ -28,6 +26,8 @@ import {
   IconWallpaper,
 } from '@tabler/icons-react';
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
+
+import { Search } from '../components/Search';
 
 export function Layout() {
   const [opened, { toggle }] = useDisclosure();
@@ -61,7 +61,7 @@ export function Layout() {
               </Group>
             </Link>
             <Group gap={8}>
-              <Input size='sm' placeholder='Search...' leftSection={<IconSearch size={14} />} />
+              <Search />
               <ActionIcon variant='subtle' color='gray'>
                 <IconUser size={22} />
               </ActionIcon>

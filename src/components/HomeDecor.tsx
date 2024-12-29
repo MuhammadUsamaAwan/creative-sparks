@@ -17,7 +17,7 @@ export function HomeDecor() {
   return (
     <Stack>
       <SimpleGrid cols={2}>
-        <Image src={homeDecor.image} alt={homeDecor.name} height={400} radius='md' />
+        <Image src={homeDecor.image} alt={homeDecor.name} height={400} radius='md' className='hover-zoom' />
         <Stack>
           <Title order={2}>{homeDecor.name}</Title>
           <Title order={3}>{homeDecor.price}</Title>

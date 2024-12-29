@@ -17,7 +17,7 @@ export function ArtSupply() {
   return (
     <Stack>
       <SimpleGrid cols={2}>
-        <Image src={artSupply.image} alt={artSupply.name} height={400} radius='md' />
+        <Image src={artSupply.image} alt={artSupply.name} height={400} radius='md' className='hover-zoom' />
         <Stack>
           <Title order={2}>{artSupply.name}</Title>
           <Title order={3}>{artSupply.price}</Title>

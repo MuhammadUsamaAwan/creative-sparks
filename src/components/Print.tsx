@@ -17,7 +17,7 @@ export function Print() {
   return (
     <Stack>
       <SimpleGrid cols={2}>
-        <Image src={print.image} alt={print.name} height={400} radius='md' />
+        <Image src={print.image} alt={print.name} height={400} radius='md' className='hover-zoom' />
         <Stack>
           <Title order={2}>{print.name}</Title>
           <Title order={3}>{print.price}</Title>

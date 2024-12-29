@@ -17,7 +17,7 @@ export function Painting() {
   return (
     <Stack>
       <SimpleGrid cols={2}>
-        <Image src={painting.image} alt={painting.name} height={400} radius='md' />
+        <Image src={painting.image} alt={painting.name} height={400} radius='md' className='hover-zoom' />
         <Stack>
           <Title order={2}>{painting.name}</Title>
           <Title order={3}>{painting.price}</Title>
