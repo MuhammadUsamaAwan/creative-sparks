@@ -68,7 +68,7 @@ export function Layout() {
               <ActionIcon variant='subtle' color='gray'>
                 <IconHeart size={22} />
               </ActionIcon>
-              <ActionIcon variant='subtle' color='gray'>
+              <ActionIcon variant='subtle' color='gray' component={Link} to='/cart'>
                 <IconShoppingCart size={22} />
               </ActionIcon>
             </Group>

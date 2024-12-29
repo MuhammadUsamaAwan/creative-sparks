@@ -1,5 +1,5 @@
 import { Button, Card, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
-import { IconShoppingCartPlus } from '@tabler/icons-react';
+import { IconEye } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 
 import { data } from '../config/data';
@@ -27,10 +27,10 @@ export function Paintings() {
               mt='auto'
               radius='md'
               component={Link}
-              to='/buy'
-              leftSection={<IconShoppingCartPlus size={14} />}
+              to={`/paintings/${painting.id}`}
+              leftSection={<IconEye size={14} />}
             >
-              Buy
+              View
             </Button>
           </Card>
         ))}

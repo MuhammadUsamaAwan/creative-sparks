@@ -43,78 +43,6 @@ export const data = {
       eventCharges: '220,000 PKR',
     },
   ],
-  artSupplies: [
-    {
-      name: 'Art Supplies 1',
-      price: '1,200 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies1.jpg',
-    },
-    {
-      name: 'Art Supplies 2',
-      price: '2,800 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies2.jpg',
-    },
-    {
-      name: 'Art Supplies 3',
-      price: '450 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies3.jpg',
-    },
-    {
-      name: 'Art Supplies 4',
-      price: '3,600 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies4.jpg',
-    },
-    {
-      name: 'Art Supplies 5',
-      price: '1,750 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies5.jpg',
-    },
-    {
-      name: 'Art Supplies 6',
-      price: '5,200 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies6.jpg',
-    },
-    {
-      name: 'Art Supplies 7',
-      price: '3,100 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies7.jpg',
-    },
-    {
-      name: 'Art Supplies 8',
-      price: '850 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies8.jpg',
-    },
-    {
-      name: 'Art Supplies 9',
-      price: '4,400 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies9.jpg',
-    },
-    {
-      name: 'Art Supplies 10',
-      price: '6,700 PKR',
-      description:
-        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
-      image: '/images/art-supplies10.jpg',
-    },
-  ],
   exhibitions: [
     {
       name: 'Color Stories',
@@ -159,80 +87,9 @@ export const data = {
       image: '/images/exhibition6.jpg',
     },
   ],
-  homeDecors: [
-    {
-      name: 'Home Decor 1',
-      price: '1,950 PKR',
-      image: '/images/home-decor1.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 2',
-      price: '8,500 PKR',
-      image: '/images/home-decor2.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 3',
-      price: '3,200 PKR',
-      image: '/images/home-decor3.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 4',
-      price: '12,750 PKR',
-      image: '/images/home-decor4.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 5',
-      price: '6,450 PKR',
-      image: '/images/home-decor5.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 6',
-      price: '5,100 PKR',
-      image: '/images/home-decor6.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 7',
-      price: '2,300 PKR',
-      image: '/images/home-decor7.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 8',
-      price: '9,800 PKR',
-      image: '/images/home-decor8.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 9',
-      price: '4,600 PKR',
-      image: '/images/home-decor9.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-    {
-      name: 'Home Decor 10',
-      price: '14,200 PKR',
-      image: '/images/home-decor10.jpg',
-      description:
-        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
-    },
-  ],
   paintings: [
     {
+      id: 1,
       name: 'Castle on the Hill',
       price: '13,500 PKR',
       description:
@@ -240,6 +97,7 @@ export const data = {
       image: '/images/painting1.jpg',
     },
     {
+      id: 2,
       name: 'Landscape with Trees and Water',
       price: '14,000 PKR',
       description:
@@ -247,6 +105,7 @@ export const data = {
       image: '/images/painting2.jpg',
     },
     {
+      id: 3,
       name: 'Mountain Landscape',
       price: '17,500 PKR',
       description:
@@ -254,6 +113,7 @@ export const data = {
       image: '/images/painting3.jpg',
     },
     {
+      id: 4,
       name: 'Mountain Serenity',
       price: '16,000 PKR',
       description:
@@ -261,6 +121,7 @@ export const data = {
       image: '/images/painting4.jpg',
     },
     {
+      id: 5,
       name: 'Summit Tranquility',
       price: '12,000 PKR',
       description:
@@ -268,6 +129,7 @@ export const data = {
       image: '/images/painting5.jpg',
     },
     {
+      id: 6,
       name: 'Abstract Art',
       price: '11,500 PKR',
       description:
@@ -275,12 +137,14 @@ export const data = {
       image: '/images/painting6.jpg',
     },
     {
+      id: 7,
       name: 'Sheep Grazing in the Countryside',
       price: '14,500 PKR',
       description: 'A tranquil countryside scene with sheep grazing peacefully amidst lush greenery and rolling hills.',
       image: '/images/painting7.jpg',
     },
     {
+      id: 8,
       name: 'Mystic Stones',
       price: '12,800 PKR',
       description:
@@ -288,6 +152,7 @@ export const data = {
       image: '/images/painting8.jpg',
     },
     {
+      id: 9,
       name: 'The Battle of Grunwald',
       price: '15,000 PKR',
       description:
@@ -295,6 +160,7 @@ export const data = {
       image: '/images/painting9.jpg',
     },
     {
+      id: 10,
       name: 'Santorini',
       price: '13,500 PKR',
       description:
@@ -302,8 +168,173 @@ export const data = {
       image: '/images/painting10.jpg',
     },
   ],
+  artSupplies: [
+    {
+      id: 1,
+      name: 'Art Supplies 1',
+      price: '1,200 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies1.jpg',
+    },
+    {
+      id: 2,
+      name: 'Art Supplies 2',
+      price: '2,800 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies2.jpg',
+    },
+    {
+      id: 3,
+      name: 'Art Supplies 3',
+      price: '450 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies3.jpg',
+    },
+    {
+      id: 4,
+      name: 'Art Supplies 4',
+      price: '3,600 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies4.jpg',
+    },
+    {
+      id: 5,
+      name: 'Art Supplies 5',
+      price: '1,750 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies5.jpg',
+    },
+    {
+      id: 6,
+      name: 'Art Supplies 6',
+      price: '5,200 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies6.jpg',
+    },
+    {
+      id: 7,
+      name: 'Art Supplies 7',
+      price: '3,100 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies7.jpg',
+    },
+    {
+      id: 8,
+      name: 'Art Supplies 8',
+      price: '850 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies8.jpg',
+    },
+    {
+      id: 9,
+      name: 'Art Supplies 9',
+      price: '4,400 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies9.jpg',
+    },
+    {
+      id: 10,
+      name: 'Art Supplies 10',
+      price: '6,700 PKR',
+      description:
+        'Unleash your inner artist with premium art supplies. From brushes to canvases, find everything you need to create your next masterpiece.',
+      image: '/images/art-supplies10.jpg',
+    },
+  ],
+  homeDecors: [
+    {
+      id: 1,
+      name: 'Home Decor 1',
+      price: '1,950 PKR',
+      image: '/images/home-decor1.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 2,
+      name: 'Home Decor 2',
+      price: '8,500 PKR',
+      image: '/images/home-decor2.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 3,
+      name: 'Home Decor 3',
+      price: '3,200 PKR',
+      image: '/images/home-decor3.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 4,
+      name: 'Home Decor 4',
+      price: '12,750 PKR',
+      image: '/images/home-decor4.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 5,
+      name: 'Home Decor 5',
+      price: '6,450 PKR',
+      image: '/images/home-decor5.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 6,
+      name: 'Home Decor 6',
+      price: '5,100 PKR',
+      image: '/images/home-decor6.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 7,
+      name: 'Home Decor 7',
+      price: '2,300 PKR',
+      image: '/images/home-decor7.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 8,
+      name: 'Home Decor 8',
+      price: '9,800 PKR',
+      image: '/images/home-decor8.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 9,
+      name: 'Home Decor 9',
+      price: '4,600 PKR',
+      image: '/images/home-decor9.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+    {
+      id: 10,
+      name: 'Home Decor 10',
+      price: '14,200 PKR',
+      image: '/images/home-decor10.jpg',
+      description:
+        'Elevate your interiors with our curated home decor collection. Unique, artistic accents to transform your house into a gallery-worthy space.',
+    },
+  ],
   prints: [
     {
+      id: 1,
       name: 'Print 1',
       price: '1,250 PKR',
       description:
@@ -311,6 +342,7 @@ export const data = {
       image: '/images/print1.jpg',
     },
     {
+      id: 2,
       name: 'Print 2',
       price: '3,500 PKR',
       description:
@@ -318,6 +350,7 @@ export const data = {
       image: '/images/print2.jpg',
     },
     {
+      id: 3,
       name: 'Print 3',
       price: '7,800 PKR',
       description:
@@ -325,6 +358,7 @@ export const data = {
       image: '/images/print3.jpg',
     },
     {
+      id: 4,
       name: 'Print 4',
       price: '15,000 PKR',
       description:
@@ -332,6 +366,7 @@ export const data = {
       image: '/images/print4.jpg',
     },
     {
+      id: 5,
       name: 'Print 5',
       price: '6,750 PKR',
       description:
@@ -339,6 +374,7 @@ export const data = {
       image: '/images/print5.jpg',
     },
     {
+      id: 6,
       name: 'Print 6',
       price: '4,200 PKR',
       description:
@@ -346,6 +382,7 @@ export const data = {
       image: '/images/print6.jpg',
     },
     {
+      id: 7,
       name: 'Print 7',
       price: '800 PKR',
       description:
@@ -353,6 +390,7 @@ export const data = {
       image: '/images/print7.jpg',
     },
     {
+      id: 8,
       name: 'Print 8',
       price: '10,400 PKR',
       description:
@@ -360,6 +398,7 @@ export const data = {
       image: '/images/print8.jpg',
     },
     {
+      id: 9,
       name: 'Print 9',
       price: '5,999 PKR',
       description:
@@ -367,6 +406,7 @@ export const data = {
       image: '/images/print9.jpg',
     },
     {
+      id: 10,
       name: 'Print 10',
       price: '2,650 PKR',
       description:

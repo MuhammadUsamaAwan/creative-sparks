@@ -5,29 +5,29 @@ import { useParams } from 'react-router-dom';
 import { data } from '../config/data';
 import { useCart } from '../hooks/useCart';
 
-export function HomeDecor() {
+export function Painting() {
   const { addToCart } = useCart();
-  const { homeDecorId } = useParams();
-  const homeDecor = data.homeDecors.find(homeDecor => homeDecor.id === Number(homeDecorId));
+  const { paintingId } = useParams();
+  const painting = data.paintings.find(painting => painting.id === Number(paintingId));
 
-  if (!homeDecor) {
-    return <div>Home Decor not found</div>;
+  if (!painting) {
+    return <div>Painting not found</div>;
   }
 
   return (
     <Stack>
       <SimpleGrid cols={2}>
-        <Image src={homeDecor.image} alt={homeDecor.name} height={400} radius='md' />
+        <Image src={painting.image} alt={painting.name} height={400} radius='md' />
         <Stack>
-          <Title order={2}>{homeDecor.name}</Title>
-          <Title order={3}>{homeDecor.price}</Title>
-          <div>{homeDecor.description}</div>
+          <Title order={2}>{painting.name}</Title>
+          <Title order={3}>{painting.price}</Title>
+          <div>{painting.description}</div>
           <Button
             leftSection={<IconShoppingCartPlus size={14} />}
             onClick={() =>
               addToCart({
-                type: 'homeDecors',
-                id: homeDecor.id,
+                type: 'paintings',
+                id: painting.id,
               })
             }
           >
