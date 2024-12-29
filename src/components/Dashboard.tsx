@@ -100,13 +100,13 @@ export function Dashboard() {
       </Flex>
       <Table
         data={{
-          head: ['Customer', 'Items Sold', 'Artist Hired'],
+          head: ['Customer', 'Items Sold', 'Artists Hired'],
           body: [
-            ['Alice', 12, 'Carbon Artist'],
-            ['Bob', 14, 'Nitrogen Artist'],
-            ['Charlie', 88, 'Yttrium Artist'],
-            ['Diana', 137, 'Barium Artist'],
-            ['Eve', 140, 'Cerium Artist'],
+            ['Alice', 12, 3],
+            ['Bob', 14, 1],
+            ['Charlie', 88, 0],
+            ['Diana', 137, 4],
+            ['Eve', 140, 4],
           ],
         }}
         striped
