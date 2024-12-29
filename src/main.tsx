@@ -9,6 +9,9 @@ import '~/styles/index.css';
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css';
 import '@mantine/charts/styles.css';
+import '@mantine/notifications/styles.css';
+
+import { Notifications } from '@mantine/notifications';
 
 const theme = createTheme({
   fontFamily: 'GreycliffCF',
@@ -19,6 +22,7 @@ createRoot(document.getElementById('root')!).render(
     <MantineProvider theme={theme}>
       <BrowserRouter>
         <App />
+        <Notifications />
       </BrowserRouter>
     </MantineProvider>
   </StrictMode>

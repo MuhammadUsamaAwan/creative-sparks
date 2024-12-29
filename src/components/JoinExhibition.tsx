@@ -1,9 +1,20 @@
 import { Button, Checkbox, SimpleGrid, Stack, TextInput, Title } from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
 import { IconCurrencyDollar } from '@tabler/icons-react';
 
+import { ConfirmModal } from './ConfirmModal';
+
 export function JoinExhibition() {
+  const [opened, { open, close }] = useDisclosure(false);
+
   return (
-    <form>
+    <form
+      onSubmit={e => {
+        e.preventDefault();
+        console.log('first');
+        open();
+      }}
+    >
       <Stack>
         <Title>Buy Exhibition Ticket</Title>
         <Title order={2}>Contact Information</Title>
@@ -27,8 +38,17 @@ export function JoinExhibition() {
         </SimpleGrid>
 
         <Checkbox label='I have read the terms and conditions' />
-        <Button leftSection={<IconCurrencyDollar size={14} />}>Buy Ticket</Button>
+        <Button leftSection={<IconCurrencyDollar size={14} />} type='submit'>
+          Buy Ticket
+        </Button>
       </Stack>
+      <ConfirmModal
+        text='Are you sure you want to buy this ticket?'
+        okText='Buy Ticket'
+        successText='Ticket has been bought successfully'
+        onClose={close}
+        opened={opened}
+      />
     </form>
   );
 }

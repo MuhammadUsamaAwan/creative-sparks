@@ -1,10 +1,21 @@
 import { Button, Checkbox, SimpleGrid, Stack, TextInput, Title } from '@mantine/core';
 import { DateInput } from '@mantine/dates';
+import { useDisclosure } from '@mantine/hooks';
 import { IconBriefcase } from '@tabler/icons-react';
 
+import { ConfirmModal } from './ConfirmModal';
+
 export function Hire() {
+  const [opened, { open, close }] = useDisclosure(false);
+
   return (
-    <form>
+    <form
+      onSubmit={e => {
+        e.preventDefault();
+        console.log('first');
+        open();
+      }}
+    >
       <Stack>
         <Title>Hire Artist</Title>
         <TextInput label='Full Name' placeholder='Enter Full Name' required />
@@ -20,8 +31,17 @@ export function Hire() {
           <TextInput label='Zip Code' placeholder='Enter Zip Code' required />
         </SimpleGrid>
         <Checkbox label='I have read the terms and conditions' />
-        <Button leftSection={<IconBriefcase size={14} />}>Hire Artist</Button>
+        <Button leftSection={<IconBriefcase size={14} />} type='submit'>
+          Hire Artist
+        </Button>
       </Stack>
+      <ConfirmModal
+        text='Are you sure you want to hire this artist?'
+        okText='Hire Artist'
+        successText='Artist has been hired successfully'
+        onClose={close}
+        opened={opened}
+      />
     </form>
   );
 }
