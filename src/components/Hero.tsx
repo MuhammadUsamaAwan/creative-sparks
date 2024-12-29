@@ -23,7 +23,7 @@ export function Hero() {
           </Button>
         </div>
       </Stack>
-      <Box mt={100}>
+      <Box mt={100} className='hover-zoom'>
         <Image src={heroImage} alt='creative spark' h={500} fit='contain' />
       </Box>
     </SimpleGrid>

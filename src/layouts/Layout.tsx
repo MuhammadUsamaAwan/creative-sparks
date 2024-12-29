@@ -12,8 +12,10 @@ import {
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import {
+  IconArtboard,
   IconBrush,
   IconCamera,
+  IconGauge,
   IconHeart,
   IconHome,
   IconLibraryPhoto,
@@ -44,20 +46,20 @@ export function Layout() {
         <Group h='100%' px='md'>
           <Burger opened={opened} onClick={toggle} hiddenFrom='sm' size='sm' />
           <Group justify='space-between' style={{ flex: 1 }}>
-            <Title order={3}>
-              <Link
-                style={{
-                  textDecoration: 'none',
-                  color: 'inherit',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                }}
-                to='/'
-              >
-                <img src='/logo.png' alt='logo' width={34} />
-                Creative Spark
-              </Link>
-            </Title>
+            <Link
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+                display: 'inline-flex',
+                alignItems: 'center',
+              }}
+              to='/'
+            >
+              <Group align='center' gap={2}>
+                <IconArtboard />
+                <Title order={3}>Creative Spark</Title>
+              </Group>
+            </Link>
             <Group gap={8}>
               <Input size='sm' placeholder='Search...' leftSection={<IconSearch size={14} />} />
               <ActionIcon variant='subtle' color='gray'>
@@ -133,6 +135,13 @@ export function Layout() {
             label='Exhibition Schedule'
             active={'/exhibition-schedule' === pathname}
             leftSection={<IconCamera size={16} />}
+            component={Link}
+          />
+          <NavLink
+            to='/dashboard'
+            label='Dashboard'
+            active={'/dashboard' === pathname}
+            leftSection={<IconGauge size={16} />}
             component={Link}
           />
         </AppShell.Section>

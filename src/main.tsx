@@ -8,6 +8,7 @@ import { App } from './App';
 import '~/styles/index.css';
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css';
+import '@mantine/charts/styles.css';
 
 const theme = createTheme({
   fontFamily: 'GreycliffCF',

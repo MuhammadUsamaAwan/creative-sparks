@@ -12,7 +12,7 @@ export function Shop() {
     <Stack>
       <Title>Shop</Title>
       <SimpleGrid cols={4}>
-        <Card shadow='sm' padding='lg' radius='md' withBorder>
+        <Card shadow='sm' padding='lg' radius='md' withBorder className='hover-zoom'>
           <Card.Section>
             <Image src={paintingsImg} height={160} alt='' />
           </Card.Section>
@@ -37,7 +37,7 @@ export function Shop() {
           </Button>
         </Card>
 
-        <Card shadow='sm' padding='lg' radius='md' withBorder>
+        <Card shadow='sm' padding='lg' radius='md' withBorder className='hover-zoom'>
           <Card.Section>
             <Image src={printsImg} height={160} alt='' />
           </Card.Section>
@@ -62,7 +62,7 @@ export function Shop() {
           </Button>
         </Card>
 
-        <Card shadow='sm' padding='lg' radius='md' withBorder>
+        <Card shadow='sm' padding='lg' radius='md' withBorder className='hover-zoom'>
           <Card.Section>
             <Image src={homeDecorImg} height={160} alt='' />
           </Card.Section>
@@ -87,7 +87,7 @@ export function Shop() {
           </Button>
         </Card>
 
-        <Card shadow='sm' padding='lg' radius='md' withBorder>
+        <Card shadow='sm' padding='lg' radius='md' withBorder className='hover-zoom'>
           <Card.Section>
             <Image src={artSuppliesImg} height={160} alt='' />
           </Card.Section>

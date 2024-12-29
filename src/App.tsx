@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Artists } from './components/Artists';
 import { ArtSupplies } from './components/ArtSupplies';
 import { Buy } from './components/Buy';
+import { Dashboard } from './components/Dashboard';
 import { ExhibitionSchedule } from './components/ExhibitionSchedule';
 import { Hero } from './components/Hero';
 import { Hire } from './components/Hire';
@@ -28,6 +29,7 @@ export function App() {
         <Route path='buy' element={<Buy />} />
         <Route path='hire' element={<Hire />} />
         <Route path='join-exhibition' element={<JoinExhibition />} />
+        <Route path='dashboard' element={<Dashboard />} />
       </Route>
     </Routes>
   );
