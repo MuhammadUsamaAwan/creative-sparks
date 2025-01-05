@@ -19,7 +19,7 @@ export function useCart() {
   }
 
   function removeFromCart(item: { type: ProductType; id: number }) {
-    setCart(current => current.filter(i => i.id !== item.id));
+    setCart(current => current.filter(i => i.id !== item.id && i.type !== item.type));
     notifications.show({
       title: 'Success',
       message: 'Item was successfully removed from cart',

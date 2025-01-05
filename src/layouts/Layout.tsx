@@ -3,6 +3,7 @@ import {
   AppShell,
   Burger,
   Group,
+  Indicator,
   NavLink,
   ScrollArea,
   Title,
@@ -19,6 +20,7 @@ import {
   IconHome,
   IconLibraryPhoto,
   IconPaint,
+  IconSettings,
   IconShoppingBag,
   IconShoppingCart,
   IconUser,
@@ -28,6 +30,7 @@ import {
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 
 import { Search } from '../components/Search';
+import { useCart } from '../hooks/useCart';
 
 export function Layout() {
   const [opened, { toggle }] = useDisclosure();
@@ -35,6 +38,7 @@ export function Layout() {
   const theme = useMantineTheme();
   const { pathname } = useLocation();
   const navigate = useNavigate();
+  const { cart } = useCart();
 
   return (
     <AppShell
@@ -68,9 +72,11 @@ export function Layout() {
               <ActionIcon variant='subtle' color='gray'>
                 <IconHeart size={22} />
               </ActionIcon>
-              <ActionIcon variant='subtle' color='gray' component={Link} to='/cart'>
-                <IconShoppingCart size={22} />
-              </ActionIcon>
+              <Indicator label={cart.length} size={16}>
+                <ActionIcon variant='subtle' color='gray' component={Link} to='/cart'>
+                  <IconShoppingCart size={22} />
+                </ActionIcon>
+              </Indicator>
             </Group>
           </Group>
         </Group>
@@ -87,12 +93,14 @@ export function Layout() {
           />
           <NavLink
             to='/shop'
-            label='Shop'
+            label={
+              <div style={{ width: '100%' }} onClick={() => navigate('/shop')}>
+                Shop
+              </div>
+            }
             active={'/shop' === pathname}
             leftSection={<IconShoppingBag size={16} />}
             component={Link}
-            opened
-            onClick={() => navigate('/shop')}
           >
             <NavLink
               to='/paintings'
@@ -142,6 +150,13 @@ export function Layout() {
             label='Dashboard'
             active={'/dashboard' === pathname}
             leftSection={<IconGauge size={16} />}
+            component={Link}
+          />
+          <NavLink
+            to='/settings'
+            label='Settings'
+            active={'/settings' === pathname}
+            leftSection={<IconSettings size={16} />}
             component={Link}
           />
         </AppShell.Section>

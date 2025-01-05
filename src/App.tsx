@@ -16,6 +16,7 @@ import { Painting } from './components/Painting';
 import { Paintings } from './components/Paintings';
 import { Print } from './components/Print';
 import { Prints } from './components/Prints';
+import { Settings } from './components/Settings';
 import { Shop } from './components/Shop';
 import { Layout } from './layouts/Layout';
 
@@ -48,6 +49,7 @@ export function App() {
         <Route path='join-exhibition' element={<JoinExhibition />} />
         <Route path='dashboard' element={<Dashboard />} />
         <Route path='cart' element={<Cart />} />
+        <Route path='settings' element={<Settings />} />
       </Route>
     </Routes>
   );
