@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 
 import { data } from '../config/data';
 import { useCart } from '../hooks/useCart';
+import { AnimateIn } from './AnimateIn';
 
 export function HomeDecor() {
   const { addToCart } = useCart();
@@ -15,26 +16,28 @@ export function HomeDecor() {
   }
 
   return (
-    <Stack>
-      <SimpleGrid cols={2}>
-        <Image src={homeDecor.image} alt={homeDecor.name} height={400} radius='md' className='hover-zoom' />
-        <Stack>
-          <Title order={2}>{homeDecor.name}</Title>
-          <Title order={3}>{homeDecor.price}</Title>
-          <div>{homeDecor.description}</div>
-          <Button
-            leftSection={<IconShoppingCartPlus size={14} />}
-            onClick={() =>
-              addToCart({
-                type: 'homeDecors',
-                id: homeDecor.id,
-              })
-            }
-          >
-            Add to cart
-          </Button>
-        </Stack>
-      </SimpleGrid>
-    </Stack>
+    <AnimateIn>
+      <Stack>
+        <SimpleGrid cols={2}>
+          <Image src={homeDecor.image} alt={homeDecor.name} height={400} radius='md' className='hover-zoom' />
+          <Stack>
+            <Title order={2}>{homeDecor.name}</Title>
+            <Title order={3}>{homeDecor.price}</Title>
+            <div>{homeDecor.description}</div>
+            <Button
+              leftSection={<IconShoppingCartPlus size={14} />}
+              onClick={() =>
+                addToCart({
+                  type: 'homeDecors',
+                  id: homeDecor.id,
+                })
+              }
+            >
+              Add to cart
+            </Button>
+          </Stack>
+        </SimpleGrid>
+      </Stack>
+    </AnimateIn>
   );
 }

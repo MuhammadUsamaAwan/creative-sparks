@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 
 import { data } from '../config/data';
 import { useCart } from '../hooks/useCart';
+import { AnimateIn } from './AnimateIn';
 
 export function Print() {
   const { addToCart } = useCart();
@@ -15,26 +16,28 @@ export function Print() {
   }
 
   return (
-    <Stack>
-      <SimpleGrid cols={2}>
-        <Image src={print.image} alt={print.name} height={400} radius='md' className='hover-zoom' />
-        <Stack>
-          <Title order={2}>{print.name}</Title>
-          <Title order={3}>{print.price}</Title>
-          <div>{print.description}</div>
-          <Button
-            leftSection={<IconShoppingCartPlus size={14} />}
-            onClick={() =>
-              addToCart({
-                type: 'prints',
-                id: print.id,
-              })
-            }
-          >
-            Add to cart
-          </Button>
-        </Stack>
-      </SimpleGrid>
-    </Stack>
+    <AnimateIn>
+      <Stack>
+        <SimpleGrid cols={2}>
+          <Image src={print.image} alt={print.name} height={400} radius='md' className='hover-zoom' />
+          <Stack>
+            <Title order={2}>{print.name}</Title>
+            <Title order={3}>{print.price}</Title>
+            <div>{print.description}</div>
+            <Button
+              leftSection={<IconShoppingCartPlus size={14} />}
+              onClick={() =>
+                addToCart({
+                  type: 'prints',
+                  id: print.id,
+                })
+              }
+            >
+              Add to cart
+            </Button>
+          </Stack>
+        </SimpleGrid>
+      </Stack>
+    </AnimateIn>
   );
 }
